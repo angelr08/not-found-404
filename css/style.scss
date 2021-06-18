@@ -1,0 +1,94 @@
+$fuente1: 'Space Mono', monospace; 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 6.25%;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    margin-block-end: 30px;
+}
+
+.header h2 {
+    padding-block-start: 20px;
+    padding-inline-start: 24px;
+    font-size: 24rem;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+}
+
+.main {
+    width: 100%;
+    height: 80%;
+    margin-block-end: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main__image {
+    width: 80%;
+}
+
+.main__image img {
+    width: 285px;
+    height: 235px;
+}
+
+.main__information {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main__information h1 {
+    font-size: 48rem;
+    padding-block-end: 30px;
+    font-family: $fuente1;
+    font-weight: 700;
+    color: #333333;
+}
+
+.main__information p {
+    font-size: 18rem;
+    padding-block-end: 30px;
+    font-family: $fuente1;
+    font-weight: 400;
+    color: #4F4F4F;
+}
+
+.main__information button {
+    width: 150px;
+    height: 50px;
+    background-color: #333333;
+    font-size: 14rem;
+    font-family: $fuente1;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    align-self: flex-start;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+}
+
+.footer p {
+    font-size: 14rem;
+    text-align: center;
+    font-family: sans-serif;
+    padding-block-end: 10px;
+    font-weight: 700;
+    color: #BDBDBD;
+}
