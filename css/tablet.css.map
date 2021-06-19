@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACF,cAAc,EAAE,GAAG;EACnB,kBAAkB,EAAE,KAAK;EACzB,gBAAgB,EAAE,KAAK;EACvB,eAAe,EAAE,YAAY;CAChC;;AAED,AAAA,YAAY,CAAC;EACT,KAAK,EAAE,GAAG;CACb;;AAED,AAAA,YAAY,CAAC,GAAG,CAAC;EACb,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAChB;;AAED,AAAA,kBAAkB,CAAC;EACf,KAAK,EAAE,GAAG;CACb",
+    "sources": [
+        "tablet.scss"
+    ],
+    "names": [],
+    "file": "tablet.css"
+}
